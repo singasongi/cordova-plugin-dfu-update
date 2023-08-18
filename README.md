@@ -68,7 +68,7 @@ Start the Firmware-Update proccess
 
 ### Parameters:
 - An Object, which has the following Values: 
-    - fileUrl (string) - A string that is the path to the file to use in the update. It can be either in either `cdvfile://` or `file://` format.
+    - fileUrl (string) - A string that is the path to the file to use in the update. It can be either in either `cdvfile://` or `file://` or `content://` format.
     - deviceId (string) - A string that contains the identifier for the Bluetooth LE device to update. It will either be a MAC address (on Android) or a UUID (on iOS).
     - packetReceiptNotificationsValue (number) - See [here](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.sdk5.v11.0.0%2Fbledfu_transport_bleservice.html) (Default to **10**)
 
